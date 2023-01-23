@@ -1,6 +1,5 @@
 <script setup lang="ts">
 </script>
-
 <template>
-  <router-view></router-view>
+    <p>This contect page</p>
 </template>

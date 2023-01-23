@@ -15,7 +15,8 @@
     "jsdom": "^21.0.0",
     "start-server-and-test": "^1.15.2",
     "vitest": "^0.27.2",
-    "vue": "^3.2.45"
+    "vue": "^3.2.45",
+    "vue-router": "4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",

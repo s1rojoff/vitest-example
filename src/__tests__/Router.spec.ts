@@ -22,15 +22,15 @@ describe('Test for router', ()=>{
 
         await mountHomePage().find('p[id=Counter]').trigger('click')
         expect(push).toHaveBeenCalledOnce()
-        expect(push).toHaveBeenCalledWith('counter')
+        expect(push).toHaveBeenCalledWith("/counter")
         
         
         await mountHomePage().find('p[id=About]').trigger('click')
         expect(push).toHaveBeenCalledTimes(2)
-        expect(push).toHaveBeenCalledWith('about')
+        expect(push).toHaveBeenCalledWith('/about')
 
         await mountHomePage().find('p[id=Contact]').trigger('click')
         expect(push).toHaveBeenCalledTimes(3)
-        expect(push).toHaveBeenCalledWith('contact')
+        expect(push).toHaveBeenCalledWith('/contact')
     })
 })
